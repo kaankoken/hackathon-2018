@@ -1,0 +1,38 @@
+﻿{% extends "app/layout.html" %}
+    {% block content %}
+
+    <h2>{{ title }}</h2>
+    <h3>{{ message }}</h3>
+    <details><summary>DNA Izolasyonu</summary>
+        <ul>
+            <template>12. Sinif Biyoloji, Molekuler Biyoloji</template>
+        <li>Ozet:<p>DNA molekullerinin saf halde elde edilmesi</p></li>
+        <li>Amac : Yaprak Dokusundan DNA izolasyonu</li>
+        <li>Materyal : Sivi Azot, CTAB tampon cozeltisi, kloroform</li>
+        <li>Prosedur : <ul>
+    <li>
+        Tampon cozeltisi 65 dereceye kadar isitilir.
+    </li>
+     <li>1 mg yaprak dokusu sivi azotla ezilip, deney tupune aktarilir.</li>
+              <li>...</li>
+</ul> </li>
+    </ul>
+    </details>
+    <details><summary>Spektrofotometre Calisma Prensibi</summary>
+        <ul>
+            <template>10. Sinif Kimya, Analitik Kimya</template>
+        <li>Ozet:<p>Spektrofotometre'ye asinalik kazanilmasi ve calisma prensibinin anlasilmasi</p></li>
+        <li>Amac : Spektrofotometrenin calisma prensibinin incelenmesi</li>
+        <li>Materyal : Spektrofotometre, spektrofotometre kuvetleri, gida boyasi</li>
+        <li>Prosedur : <ul>
+    <li>
+        Gida boyasi ve su ile cesitli konsantrasyonlarda cozeltiler hazirlanir.
+    </li>
+     <li>Spektrofotometre kuvetlerinden birine su konur ve referans cizgisi elde edilir.</li>
+              <li>...</li>
+</ul> </li>
+    </ul>
+    </details>
+        <button type="button">Yeni Modul Ekle</button>
+
+{% endblock %}

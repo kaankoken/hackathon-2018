@@ -1,0 +1,12 @@
+﻿{% extends "app/layout.html" %}
+
+<div class="nav navbar-nav">
+{% block content %}
+  <h2>Kaydol (kullanici)</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Tamam</button>  
+  </form>
+</div>
+{% endblock %}

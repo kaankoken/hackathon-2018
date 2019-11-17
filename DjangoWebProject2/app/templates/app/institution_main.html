@@ -1,0 +1,13 @@
+﻿{% extends "app/layout.html" %}
+    {% block content %}
+
+    <h2>{{ title }}</h2>
+    <h3>{{ message }}</h3>
+
+    <p><a href="{% url 'my_modules' %}">Modullerim</a></p>
+    <p><a href="{% url 'my_labs' %}">Laboratuvarlarim</a></p>
+    <p><a href="#">Kullanici Deney Talepleri</a></p>
+    <p><a href="#">Modul Onerilerim</a></p>
+    
+
+{% endblock %}
